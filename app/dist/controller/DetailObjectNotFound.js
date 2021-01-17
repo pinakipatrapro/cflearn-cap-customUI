@@ -1,0 +1,1 @@
+sap.ui.define(["./BaseController"],function(e){"use strict";return e.extend("demo.ui5.ui5.controller.DetailObjectNotFound",{})});

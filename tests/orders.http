@@ -1,0 +1,36 @@
+GET  http://localhost:4004/admin/Orders?$expand=Items
+
+
+
+
+
+
+
+###
+POST http://localhost:4004/browse/Orders
+Content-Type: application/json
+
+{
+    "OrderNo":"pin2","Items" : [
+        {"book_ID":1,"amount":1},
+        {"book_ID":3,"amount":7}
+    ]
+}
+
+###Try Insertinf in read only books
+
+POST http://localhost:4004/browse/Books
+Content-Type: application/json
+
+{
+    "title" : "001",
+    "desc" : "TEst"
+}
+
+###
+DELETE  http://localhost:4004/admin/Orders
+Content-Type: application/json
+
+{
+    "OrderNo":"pin2"
+}

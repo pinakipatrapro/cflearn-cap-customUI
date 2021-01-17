@@ -1,0 +1,24 @@
+{
+  "name": "ui5",
+  "description": "",
+  "scripts": {
+    "build": "ui5 build",
+    "serve": "ui5 serve -o index.html",
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^1.14.0",
+    "ui5-middleware-simpleproxy": "^0.2.1"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-simpleproxy"
+    ]
+  },
+  "dependencies": {
+    "@sap/approuter": "^9.0.2",
+    "@sap/xsenv": "^3.1.0",
+    "@sap/xssec": "^2.2.5",
+    "passport": "^0.4.1"
+  }
+}

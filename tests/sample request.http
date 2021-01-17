@@ -1,0 +1,18 @@
+GET  http://localhost:4004/admin/Books
+
+
+
+
+
+
+
+###
+POST http://localhost:4004/browse/Orders
+Content-Type: application/json
+
+{
+    "OrderNo":"pin1","Items" : [
+        {"book_ID":3,"amount":1},
+        {"book_ID":1,"amount":1}
+    ]
+}
