@@ -29,10 +29,10 @@ mta_archives/
 # .idea
 
 # added by cds deploy
-default-env.json
+
 
 # auto generated wildcard
-bookshop_w1u4/app/.env
+
 
 
 /node_modules/
